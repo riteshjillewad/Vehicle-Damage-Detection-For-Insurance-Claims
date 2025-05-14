@@ -6,7 +6,6 @@ Car Damage Detection for Insurance Claims is a computer vision-based system desi
 The system performs:
 
 - Damage Detection using Detectron2 (Mask R-CNN).
-
 - Damage Classification using a custom CNN model.
 
 
