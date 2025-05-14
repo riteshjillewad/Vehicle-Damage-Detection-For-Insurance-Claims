@@ -7,6 +7,18 @@ The system performs:
 
 - Damage Detection using Detectron2 (Mask R-CNN).
 - Damage Classification using a custom CNN model.
+- Built and tested in Google Colab using Python.
+
+
+## 🧠 Technologies Used
+
+| Task                   | Tool/Library           |
+|------------------------|------------------------|
+| Damage Detection       | Detectron2 (Mask R-CNN) |
+| Damage Classification  | TensorFlow / Keras CNN |
+| Image Preprocessing    | OpenCV                 |
+| Visualization          | Matplotlib, Seaborn    |
+| Notebook Platform      | Google Colab           |
 
 
 
