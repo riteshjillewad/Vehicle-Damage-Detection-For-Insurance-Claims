@@ -67,3 +67,26 @@ dataset/
   - No Damage
 - Used `ImageDataGenerator` for augmentation and model robustness.
 
+## 📊 Results & Performance
+
+### ✅ Detectron2 Detection:
+* Model: Mask R-CNN (R50-FPN)
+* Precision: High IoU and mAP for bounding boxes and segmentation masks
+* Visualization: Boxes and masks plotted on car images
+
+### 🧠 CNN Classification:
+* Validation Accuracy: ~93%
+* Optimizer: Adam
+* Loss: Categorical Crossentropy
+* Visualization: Confusion Matrix and Class-wise Accuracy
+
+
+## 🚧 Future Enhancements
+* Deploy a Streamlit Web App for real-time detection & classification.
+* Introduce damage severity scoring (minor, moderate, major).
+* Add explainable AI (XAI) for model transparency.
+* Expand dataset with synthetic damage using augmentation.
+
+## 👨‍💻 Author
+**Ritesh Jillewad** <br>
+14-05-2025
