@@ -53,9 +53,17 @@ dataset/
 
 ## ⚙️ How It Works
 
-#### 🔍 Step 1: Damage Detection with Detectron2
+### 🔍 Step 1: Damage Detection with Detectron2
 - Used Mask R-CNN via Detectron2 to locate car damage areas.
 - Dataset annotations follow COCO format.
 - Outputs include bounding boxes, masks, and class labels.
 
+### 🧪 Step 2: Damage Classification using CNN
+- Cropped the detected regions from step 1.
+- Trained a CNN to classify images into:
+  - Dent
+  - Scratch
+  - Crack
+  - No Damage
+- Used `ImageDataGenerator` for augmentation and model robustness.
 
